@@ -8,3 +8,7 @@ echo "below details save into file candidature list"
 echo "$CPHONE:$NAME:$SKILL:$REFERAL"
 echo "$CPHONE:$NAME:$SKILL:$REFERAL">>emp.txt
 
+read -p "enter file name emp.txt to see content in it:" fname
+echo "-------------------------------------------------------"
+cat $fname
+echo "-------------------------------------------------------"
